@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #e5e5e5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+    width: 300px;
+    height: 500px;
+    border: 3px solid rgb(158, 243, 97);
+    border-radius: 6px;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.app::-webkit-scrollbar{
+    width: 0 !important;
+}
+
+#addnew{
+
+    display: flex;
+    background-color: rgba(171, 206, 161, 0.35);
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+#tasks{
+    display: grid;
+    gap: 5px;   
+
+}
+
+
+
+#tasks div{
+    border: 2px solid #abcea1;
+    background-color: #e2eede;
+    padding: 5px;
+    border-radius: 6px;
+    display: grid;
+    gap: 4px;
+
+}
+
+.fa-plus{
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.options i{
+    cursor: pointer;
+}
+
+.options{
+    justify-self: center;
+    display: flex;
+    gap: 25px;
+}
+
+#msg{
+    color: red;
+}
